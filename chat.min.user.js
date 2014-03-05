@@ -2,7 +2,7 @@
 // @name        Chat sizer
 // @namespace   inabahare
 // @description This thing adds a new function to the chat
-// @include     http://steamcommunity.com/chat/
+// @include     *//steamcommunity.com/chat*
 // @version     1.1
 // @grant       none
 // ==/UserScript==
