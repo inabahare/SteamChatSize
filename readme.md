@@ -6,4 +6,5 @@ Toggle it by pressing your profile picture.
 
 ### What is this?
 
-It is a simple userscript that hides your friendlist and expands the current chat window 
+It is a simple userscript that hides your friendlist and expands the current chat window.
+(And unhides it if clicked again)
