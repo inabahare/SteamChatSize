@@ -9,7 +9,6 @@
 
 jQuery.noConflict();
 (function($){
-    
     var friendlist  = $('#chat_friendslist_area');
     var messages    = $('#chat_msg_area');
     var head        = $('head');
@@ -17,7 +16,7 @@ jQuery.noConflict();
     
     head.append(customCss);
     
-    $('.chat_page_header').click(function(){
+    $('.playerAvatar').click(function(){
         
         friendlist.toggle(300,function(){
             console.log(1);
