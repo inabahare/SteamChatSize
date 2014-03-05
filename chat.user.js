@@ -34,7 +34,10 @@ jQuery.noConflict();
 	messages.toggleClass('chat-big',300);
     });
     
-    $('.unread_message_count_value').change(function(){
+    $('.unread_message_count_value').addEventListener('DOMSubtreeModified', contentChanged, false);
+    
+    function contentChanged(){
 	alert(1);
-    });
+    }
+    
 })(jQuery);
