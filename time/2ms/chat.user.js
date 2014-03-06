@@ -13,7 +13,7 @@ jQuery.noConflict();
     var friendlist = $('#chat_friendslist_area');
     var messages = $('#chat_msg_area');
     var newStyle = "<style>";
-    newStyle += ".chat-big{-webkit-transition:margin-left .5s,width .5s;-ms-transition:margin-left .5s,width .5s;-moz-transition:margin-left .5s,width .5s;transition:margin-left .5s,width .5s;width:100%;margin-left:-289px}.chat-small{-webkit-transition:margin-left .5s,width .5s;-ms-transition:margin-left .5s,width .5s;-moz-transition:margin-left .5s,width .5s;transition:margin-left .5s,width .5s;width:69.4%;margin-left:0}";
+    newStyle += ".chat-big{-webkit-transition:margin-left .2s,width .2s;-ms-transition:margin-left .2s,width .2s;-moz-transition:margin-left .2s,width .2s;transition:margin-left .2s,width .2s;width:100%;margin-left:-289px}.chat-small{-webkit-transition:margin-left .2s,width .2s;-ms-transition:margin-left .2s,width .2s;-moz-transition:margin-left .2s,width .2s;transition:margin-left .2s,width .2s;width:69.4%;margin-left:0}";
     newStyle += "</style>";
     
     var oldClass = 'chat-small';
@@ -23,7 +23,7 @@ jQuery.noConflict();
     
     avatar.click(function() {
 	
-	friendlist.toggle(500, function() {});
+	friendlist.toggle(200, function() {});
 	
 	messages.removeClass(oldClass);
 	messages.addClass(newClass);
