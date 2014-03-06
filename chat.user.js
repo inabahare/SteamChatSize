@@ -31,9 +31,7 @@ jQuery.noConflict();
     var oldIUMC = CChatFriend.prototype.IncrementUnreadMessageCount;
     CChatFriend.prototype.IncrementUnreadMessageCount = function() {
 	if (newClass === 'chat-small') {
-	
 	    avatar.fadeTo(500, 0.1).fadeTo(600, 1.0);
-	    
 	}
 	return oldIUMC.call(this);
     };
