@@ -22,8 +22,6 @@ jQuery.noConflict();
 	messages.addClass(newClass);
 
 	newClass = [oldClass, oldClass = newClass][0];
-
-	console.log(newClass);
     });
 
 
