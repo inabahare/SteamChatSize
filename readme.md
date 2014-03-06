@@ -1,4 +1,4 @@
-#Steam chat reziser
+#Steam chat resizer
 
 ### How to use
 
