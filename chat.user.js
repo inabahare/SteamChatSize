@@ -13,7 +13,7 @@ jQuery.noConflict();
     var friendlist = $('#chat_friendslist_area');
     var messages = $('#chat_msg_area');
     var newStyle = "<style>";
-    newStyle += ".chat-big{-webkit-transition:margin-left .0.3s,width .3s;-ms-transition:margin-left .3s,width .3s;-moz-transition:margin-left .3s,width .3s;transition:margin-left .3s,width .3s;width:100%;margin-left:-289px}.chat-small{-webkit-transition:margin-left .0.3s,width .3s;-ms-transition:margin-left .3s,width .3s;-moz-transition:margin-left .3s,width .3s;transition:margin-left .3s,width .3s;width:69.4%;margin-left:0}";
+    newStyle += ".chat-big{-webkit-transition:margin-left .0.5s,width .3s;-ms-transition:margin-left .3s,width .3s;-moz-transition:margin-left .3s,width .3s;transition:margin-left .3s,width .3s;width:100%;margin-left:-289px}.chat-small{-webkit-transition:margin-left .0.5s,width .3s;-ms-transition:margin-left .3s,width .3s;-moz-transition:margin-left .3s,width .3s;transition:margin-left .3s,width .3s;width:69.4%;margin-left:0}";
     newStyle += "</style>";
     
     var oldClass = 'chat-small';
