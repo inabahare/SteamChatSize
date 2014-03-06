@@ -30,10 +30,6 @@ jQuery.noConflict();
 	
 	newClass = [oldClass, oldClass = newClass][0];
 	
-	messages.bind("transitionend", function(event){
-	   console.log(this);
-	});
-	
 	console.log(oldClass + " " + newClass);
 	
     });
