@@ -2,7 +2,9 @@
 
 ### How to use
 
-Toggle it by pressing your profile picture.
+Toggle it by clicking your profile picture.
+
+The default time is 500 milliseconds 
 
 ### What is this?
 
