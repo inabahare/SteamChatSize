@@ -3,7 +3,7 @@
 // @namespace   inabahare
 // @description This thing adds a new function to the chat
 // @include     *//steamcommunity.com/chat*
-// @version     1.1
+// @version     1.5
 // @grant       none
 // ==/UserScript==
 
