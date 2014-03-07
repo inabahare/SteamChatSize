@@ -15,8 +15,7 @@ jQuery.noConflict();
 
     avatar.click(function() {
 
-	friendlist.toggle(500, function() {
-	});
+	friendlist.toggle(500, function() {});
 
 	messages.removeClass(oldClass);
 	messages.addClass(newClass);
