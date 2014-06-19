@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name Chat sizer
+// @namespace inabahare
+// @description This thing adds a new function to the chat
+// @include *//steamcommunity.com/chat*
+// @version 1.5
+// @grant none
+// ==/UserScript==
+
 jQuery.noConflict();
 (function($) {
     var avatar = $('.playerAvatar');
